@@ -3,34 +3,37 @@
     <head>
         <title>Instagram Photo Mock</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="https://kit.fontawesome.com/c7e27bb3f6.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div id="photo-container">
             <div id="user-info">
-                <div id="user-avator">
-                    <i class="fa-brands fa-html5"></i>
-                </div>
                 <div class="names">
-                    <div id="username">HTML5</div>
-                    <div id="location">Miami, Florida</div>
+                    <i class="fa-brands fa-html5" id="user-avatar"></i>
+                    <div>
+                        <div id="username">HTML5</div>
+                        <div id="location">Miami, Florida</div>
+                    </div>
+                </div>
+                <div class="meatball"><i class="fa-solid fa-ellipsis-vertical"></i>
                 </div>
             </div>
             <div id="photo">
                 <img src="https://picsum.photos/300"/>
             </div>
-            <div id="caption">
-                <p>Liked by 4GeeksAcademy, html5, Web, and 100,000 others</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, beatae! Rerum, maxime fugiat accusantium sunt quaerat minus mollitia voluptates, necessitatibus laborum quo quod velit amet est esse rem non delectus?</p>
-                <div class="icons">
-                    <div class="icon-left">
-                        <i class="fa-regular fa-heart"></i>
-                        <i class="fa-regular fa-comment"></i>
-                        <i class="fa-regular fa-paper-plane"></i>
-                    </div>
-                    <div class="icon-right">
-                        <i class="fa-regular fa-bookmark"></i>
-                    </div>
+            <div class="icons">
+                <div class="icon-left">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
                 </div>
+                <div class="icon-right">
+                    <i class="fa-regular fa-bookmark"></i>
+                </div>
+            </div>
+            <div id="caption">
+                <p>Liked by <b>4GeeksAcademy</b>, <b>html5</b>, <b>Web</b>, and <b>100,000 others</b></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, beatae! Rerum, maxime fugiat accusantium sunt quaerat minus mollitia voluptates, necessitatibus laborum quo quod velit amet est esse rem non delectus?</p>
             </div>
         </div>
     </body>
